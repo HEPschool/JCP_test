@@ -1,0 +1,8 @@
+- name: "test sponsor 1"
+  logo: "/assets/img/sponsors/test1.png"
+- name: "test sponsor 2"
+  logo: "/assets/img/sponsors/test2.png"
+- name: "test sponsor 3"
+  logo: "/assets/img/sponsors/test3.png"
+- name: "test sponsor 4"
+- name: "test sponsor 5"
