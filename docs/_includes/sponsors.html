@@ -2,6 +2,7 @@
 {%- if data and data.size > 0 -%}
 <section class="section" aria-labelledby="{{ include.id | default: 'sponsors-home' }}">
   <h2 id="{{ include.id | default: 'sponsors-home' }}">{{ include.title | default: 'Sponsors' }}</h2>
+  
   {%- assign sponsor = data -%}
   {%- if include.order_by -%}
     {%- assign sponsor = data | sort: include.order_by -%}
